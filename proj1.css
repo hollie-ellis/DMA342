@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFF9;
+
+}
+
+h1 {
+    color: #FFFFF9;
+    font-size: 250px;
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+   
+}
+
+h2 {
+    color: #223A00;
+    font-size: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+}
+
+button {
+    position: relative;
+    padding: 20px 48px;
+    bottom: 150px;
+    background-color: #72A926;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFFF9;
+    border-radius: 50px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(imgs/pexels-asadphoto-12858457.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 250px;
+}
+
+.about {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFF9;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.attractions {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFF9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dining {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.location {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.news {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
