@@ -9,6 +9,15 @@ body {
 
 }
 
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
 h1 {
     color: #FFFFF9;
     font-size: 250px;
@@ -24,8 +33,17 @@ h2 {
     font-size: 70px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+}
+
+h3 {
+    color: #223A00;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 500;
     font-style: bold;
+    
 }
 
 button {
@@ -41,6 +59,12 @@ button {
     font-size: 30px;
     color: #FFFFF9;
     border-radius: 50px;
+}
+
+.card {
+    height: 50px;
+    width: 50px;
+    
 }
 
 .hero {
@@ -61,20 +85,46 @@ button {
 
 .about {
     position: relative;
-    height: 100vh;
     width: 100%;
     background-color: #FFFFF9;
+    display: flex;
     flex-direction: column;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
+    padding-top: 80px;
 
 }
 
+.aboutText {
+    padding: 30px 30px 30px 30px;
+    background-color: #72A926;
+    color: #FFFFF9;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.fact img {
+    width: 180px;
+    height: 180px;
+}
+
+
+
 .attractions {
     position: relative;
-    height: 100vh;
     width: 100%;
     background-color: #FFFFF9;
     display: flex;
@@ -82,6 +132,7 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 80px;
 }
 
 .dining {
